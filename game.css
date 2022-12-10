@@ -2,7 +2,7 @@ body {
     color: #fff;
 }
 
-.div-choice-container {
+.choice-container {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
@@ -12,22 +12,21 @@ body {
     min-width: 80rem;
 }
 
-.div-choice-container:hover {
+.choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
-    /*transform: scale(1.02);
-    transform: transform 100ms;*/
+    transform: scale(1.02);
+    transform: transform 100ms;
 }
 
-.p-choice-prefix {
+.choice-prefix {
     padding: 2rem 2.5rem;
     color: white;
 }
 
-.p-choice-text {
+.choice-text {
     padding: 2rem;
     width: 100%;
-    margin: 0;
 }
 
 .correct {
@@ -39,21 +38,21 @@ body {
 }
 
 /* Heads up Display */
-#div-hud {
+#hud {
     display: flex;
     justify-content: space-between;
 }
 
-.p-hud-prefix {
+.hud-prefix {
     text-align: center;
     font-size: 2rem;
 }
 
-.h1-hud-main-text {
+.hud-main-text {
     text-align: center;
 }
 
-#div-progressBar {
+#progressBar {
     width: 20rem;
     height: 3rem;
     border: 0.2rem solid rgb(11,223,36);
@@ -62,15 +61,14 @@ body {
     overflow: hidden;
 }
 
-#div-progressBarFull {
+#progressBarFull {
     height: 100%;
     background: rgb(11,223,36);
     width: 0%;
 }
 
 @media screen and (max-width: 768px) {
-    .div-choice-container {
+    .choice-container {
         min-width: 40rem;
     }
-    
 }

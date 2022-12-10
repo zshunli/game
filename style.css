@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-body {
+:root {
     background-color: rgb(29, 26, 26)
 }
 
@@ -16,8 +16,6 @@ h1 {
     font-size: 5.4rem;
     color: #fff;
     margin-bottom: 5rem;
-    margin-block-end: 0.67em;
-    font-weight: bold;
 }
 
 
@@ -28,7 +26,7 @@ h2 {
 
 }
 
-.div-container {
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -39,12 +37,12 @@ h2 {
     padding: 2rem;
 }
 
-.div-flex-column {
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
-.div-flex-center {
+.flex-center {
     justify-content: center;
     align-items: center;
 }
@@ -61,7 +59,7 @@ h2 {
     display: none;
 }
 
-.a-btn {
+.btn {
     font-size: 2.4rem;
     padding: 2rem 0;
     width: 30rem;
@@ -73,19 +71,14 @@ h2 {
     border-radius: 4px;
 }
 
-a:hover {
-    color: rgb(28, 26, 26);
-    text-decoration: none;
-}
-
-.a-btn:hover {
+.btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
     transition: transform 150ms;
     transform: scale(1.03);
 }
 
-.a-btn[disabled]:hover {
+.btn[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
@@ -105,7 +98,7 @@ a:hover {
 }
 
 /* End Page CSS */
-.form-end-form-container {
+.end-form-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -126,13 +119,13 @@ input::placeholder {
     color: #aaa;
 }
 
-#input-username {
+#username {
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
 }
 
-#h2-end-text {
+#end-text {
     font-size: 2.4rem;
     color: #fff;
     text-align: center;
