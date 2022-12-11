@@ -146,6 +146,12 @@ input::placeholder {
 }
 
 @media screen and (max-width: 768px) {
+    #game {
+        width: 50rem;
+        max-width: 50rem;
+        min-width: 25rem;
+    }
+    
     h1 {
         font-size: xx-large;
     }
