@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-:root {
+/*:root {
     background-color: rgb(29, 26, 26)
+}*/
+
+body {
+    background-color: rgb(29, 26, 26);
 }
 
 * {
@@ -139,4 +143,20 @@ input::placeholder {
     margin-left: 1rem;
     font-size: 2rem;
     color: rgb(28, 26, 26)
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .btn {
+        max-width: 25rem;
+    }
+
+    .btn:hover {
+        transform: none;
+        transition: none;
+    }
 }
