@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-body {
+:root {
     background-color: rgb(29, 26, 26)
 }
 
@@ -16,7 +16,6 @@ h1 {
     font-size: 5.4rem;
     color: #fff;
     margin-bottom: 5rem;
-    font-weight: bold;
 }
 
 
