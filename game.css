@@ -69,6 +69,15 @@ body {
 
 @media screen and (max-width: 768px) {
     .choice-container {
-        min-width: 40rem;
+        min-width: 25rem;
+    }
+
+    .choice-container:hover {
+        transform: none;
+        transition: none;
+    }
+
+    #progressBar {
+        max-width: 15rem;
     }
 }
