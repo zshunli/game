@@ -70,6 +70,7 @@ body {
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 25rem;
+        max-width: 80rem;
     }
 
     .choice-container:hover {
