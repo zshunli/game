@@ -5,7 +5,7 @@
 }*/
 
 body {
-    background-color: rgb(29, 26, 26);
+    background: linear-gradient(-45deg, #eae5c9 20%,#6cc6cb 100%);
 }
 
 * {
@@ -20,6 +20,7 @@ h1 {
     font-size: 5.4rem;
     color: #fff;
     margin-bottom: 5rem;
+    text-shadow: rgb(3, 3, 3) 2px 3px 1px;
 }
 
 
@@ -27,6 +28,8 @@ h1 {
 h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
+    color: white;
+    text-shadow: rgb(3, 3, 3) 2px 3px 1px;
 
 }
 
@@ -70,9 +73,10 @@ h2 {
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: rgb(28, 26, 26);
-    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
-    border-radius: 4px;
+    color: white;
+    background: linear-gradient(-45deg, #0081a7 49%, #00afb9 91%, #00afb9 100%);
+    border-radius: 38px;
+    border: 00.1rem solid #7edbde;
 }
 
 .btn:hover {
@@ -89,11 +93,11 @@ h2 {
 }
 
 #highscore-btn {
-    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
+    background: linear-gradient(-45deg, #014871 31%, #91a1bc 100%);
 }
 
 #highscore-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5)
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
 }
 
 .fa-crown {

@@ -7,14 +7,16 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    background: linear-gradient(-45deg, #08979d 31%, #91a1bc 100%);
     font-size: 3rem;
     min-width: 80rem;
+    border-radius: 60px;
+    border: 0.1rem solid #7edbde;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(231, 234, 238, 0.97);
     transform: scale(1.02);
     transform: transform 100ms;
 }
@@ -46,6 +48,7 @@ body {
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    text-shadow: rgb(3, 3, 3) 2px 3px 1px;
 }
 
 .hud-main-text {
@@ -55,7 +58,7 @@ body {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(11,223,36);
+    border: 0.2rem solid #42888c;
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -63,7 +66,7 @@ body {
 
 #progressBarFull {
     height: 100%;
-    background: rgb(11,223,36);
+    background: #42888c;
     width: 0%;
 }
 
