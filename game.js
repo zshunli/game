@@ -263,13 +263,14 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
-var count = 15;
+var count = 16;
 function countDown(){
-    document.getElementById("timer").innerHTML = count;
+    document.getElementById("timer").innerHTML = count-1;
     if(count > 0) {
         count--;
     }
     else if (count == 0){
+        document.getElementById("timer").innerHTML = count;
         window.alert("遊戲時間結束")
         localStorage.setItem('mostRecentScore', score)
         return window.location.assign('end.html')
